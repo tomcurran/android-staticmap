@@ -116,7 +116,7 @@ public class GoogleStaticMaps {
     /**
      * Gets a map URL based on the parameters passed into the constructor and the parameters passed
      * in here. The "scale" parameter is automatically set based on the DPI
-     * {@link DisplayMetrics#scaledDensity} from the provided context.
+     * {@link android.util.DisplayMetrics#scaledDensity} from the provided context.
      *
      * @param latitude
      * @param longitude

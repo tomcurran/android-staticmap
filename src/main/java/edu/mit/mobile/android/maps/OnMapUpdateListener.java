@@ -29,7 +29,7 @@ public interface OnMapUpdateListener {
 
     /**
      * Implement this to set the image of the map. This can be as simple as using
-     * {@link GoogleStaticMapView#setImageURI(Uri)} (which will lead to UI latency issues) or as
+     * {@link GoogleStaticMapView#setImageURI(android.net.Uri)} (which will lead to UI latency issues) or as
      * complex as loading an image from a cache. Note: the map image will not be set automatically;
      * you need to do that here.
      * 

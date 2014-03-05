@@ -46,8 +46,8 @@ import edu.mit.mobile.android.utils.AddressUtils;
  * </p>
  *
  * <p>
- * To use, place the widget in your layout and then call {@link #setCurrentLocation(Location)} or
- * {@link #setSavedLocation(Location)} to show the user's current location and an optional saved
+ * To use, place the widget in your layout and then call {@link #setCurrentLocation(android.location.Location)} or
+ * {@link #setSavedLocation(android.location.Location)} to show the user's current location and an optional saved
  * location (respectively). You can switch which location is being shown by calling
  * {@link #setShowSaved(boolean)}. When the button is pressed, it will switch which location is
  * being shown.
@@ -173,7 +173,7 @@ public class LocationButton extends Button {
      * @see #setShowAccuracy(boolean)
      * @see #setShowLatLon(boolean)
      * @see #setCurrentLocationState(int)
-     * @see #setCurrentLocation(Location)
+     * @see #setCurrentLocation(android.location.Location)
      */
     public void setLocation(Location location, int state) {
         setCurrentLocation(location);
@@ -296,7 +296,7 @@ public class LocationButton extends Button {
     }
 
     /**
-     * Gets the current location. This is the opposite of {@link #setCurrentLocation(Location)}.
+     * Gets the current location. This is the opposite of {@link #setCurrentLocation(android.location.Location)}.
      *
      * @return
      */
